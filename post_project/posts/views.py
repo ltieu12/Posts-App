@@ -1,8 +1,10 @@
 from django.shortcuts import render
+from .models import Post
 
 # Create your views here.
-def post_page(request):
-    return render(request, 'post_page.html')
-
 def posts_list(request):
-    return render(request, 'posts_list.html')
+    posts = Post.objects.all().order_by('date')
+    return render(request, 'posts/posts_list.html', { 'posts': posts })
+
+def post_page(request):
+    return render(request, 'posts/post_page.html')

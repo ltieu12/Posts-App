@@ -8,10 +8,10 @@ To run the project, follow these steps:
 
     -  For Windows: `source .venv/Scripts/activate`
 
-    - For Mac/Linux: `source .venv\bin\activate`
+    - For Mac/Linux: `source .venv/bin/activate`
 
 2. Run the program: <br />
-    - Navigate to the project directory: `cd posts_project` <br />
+    - Navigate to the project directory: `cd post_project` <br />
     - For Windows: `py manage.py runserver`
 
     - For Mac/Linux: `python3 manage.py runserver`
