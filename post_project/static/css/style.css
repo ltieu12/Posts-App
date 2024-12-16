@@ -51,3 +51,9 @@ section {
     flex-flow: column;
     gap: 1rem;
 }
+
+.banner {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+}
